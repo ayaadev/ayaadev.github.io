@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="plugin.video.pt" version="0.1.0" name="Next Gen Peertube Addon" provider-name="Haui111">
+<requires>
+  <import addon="xbmc.python" version="3.0.1" />
+  <import addon="script.module.addon.signals" version="0.0.6" />
+  <import addon="script.module.requests" version="2.25.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en_GB">Next Gen Peertube Addon</summary>
+  <description lang="en_GB">In lieu of a working peertube addon, I've decided to make a new one.</description>
+  <disclaimer lang="en_GB">Feel free to build and improve on this addon.</disclaimer>
+  <license>GPL-3.0-only</license>
+  <source>https://github.com/Haui1112/plugin.video.pt</source>
+  <assets>
+    <icon>resources/images/icon.png</icon>
+    <fanart>resources/images/fanart.jpg</fanart>
+  </assets>
+  <news>Finally watch peertube on kodi again!</news>
+</extension>
+</addon><addon id="repository.ayaadev" name="AyaaDev Kodi Repository" version="1.0.0" provider-name="ayaadev">
+    <extension point="xbmc.addon.repository" name="AyaaDev Kodi Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/ayaadev/ayaadev.github.io/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/ayaadev/ayaadev.github.io/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/ayaadev/ayaadev.github.io/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>AyaaDev Kodi Repository</summary>
+        <description>A collection of add-ons for Kodi.</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon></addons>
