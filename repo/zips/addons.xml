@@ -16,8 +16,8 @@
   <license>GPL-3.0-only</license>
   <source>https://github.com/ayaadev/PeerTube-Plus</source>
   <assets>
-    <icon>icon.png</icon>
-    <fanart>fanart.png</fanart>
+    <icon>resources/images/icon.png</icon>
+    <fanart>resources/images/fanart.png</fanart>
   </assets>
 </extension>
 </addon><addon id="repository.ayaadev" name="AyaaDev Kodi Repository" version="1.0.2" provider-name="ayaadev">
